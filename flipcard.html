@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory Flip Game</title>
+  <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+  <div class="game-header">
+    <h1>Memory Flip Card Game</h1>
+    <div class="stats">
+      <span>⏱ Time: <span id="timer">0</span>s</span>
+      <span>🔁 Moves: <span id="moves">0</span></span>
+      <span>⭐ Rating: <span id="stars">★★★</span></span>
+      <button onclick="resetGame()">Reset</button>
+    </div>
+  </div>
+
+  <div class="game-board" id="gameBoard"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
